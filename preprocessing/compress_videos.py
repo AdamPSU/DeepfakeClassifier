@@ -1,10 +1,6 @@
 import random
-import logging
 from moviepy.editor import VideoFileClip
 from pathlib import Path
-
-# Set the logging level to ERROR to suppress MoviePy's INFO and DEBUG messages
-logging.getLogger("moviepy").setLevel(logging.CRITICAL)
 
 # Feel free to modify these to suit your needs
 DEFAULT_INPUT_DIR = Path("../data/train_sample_videos/")
